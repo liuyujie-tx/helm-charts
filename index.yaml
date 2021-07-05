@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  skywalking:
+  - apiVersion: v2
+    created: "2021-07-05T14:44:16.831259+08:00"
+    dependencies:
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co/
+      version: ~7.5.1
+    description: Apache SkyWalking APM System
+    digest: 6499d810bb998695c357bfb1f5aff3dc62d0c56e59299b4e575f4a5a027a2325
+    home: https://skywalking.apache.org
+    icon: https://raw.githubusercontent.com/apache/skywalking-kubernetes/master/logo/sw-logo-for-chart.jpg
+    maintainers:
+    - email: hanahmily@gmail.com
+      name: hanahmily
+    - email: innerpeace.zhai@gmail.com
+      name: innerpeacez
+    - email: kezhenxu94@163.com
+      name: kezhenxu94
+    name: skywalking
+    sources:
+    - https://github.com/apache/skywalking-kubernetes
+    urls:
+    - https://liuyujie-tx.github.io/helm-charts/skywalking.tgz
+    version: 4.0.0
+generated: "2021-07-05T14:44:16.827692+08:00"
