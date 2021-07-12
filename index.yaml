@@ -3,9 +3,9 @@ entries:
   arena:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-12T17:37:25.620956+08:00"
+    created: "2021-07-12T19:34:15.70948+08:00"
     description: A Helm chart for Kubernetes
-    digest: 74964e71eac7c8abf56fff557d6967f836f32eb30112bc8019c801e3e81eb265
+    digest: c1ae8810efeb094f2497f79079af2cbc0888ec4e05bbd703b1bfb9adfc941fc3
     name: arena
     type: application
     urls:
