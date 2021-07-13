@@ -3,9 +3,9 @@ entries:
   arena:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-12T20:34:57.103578+08:00"
+    created: "2021-07-13T15:10:07.096429+08:00"
     description: A Helm chart for Kubernetes
-    digest: 8cecb81108674daebdbd758f49eb404a954f71aad141663db02d95deb4664092
+    digest: 4c1f99df7be7d915b2134538f27fc00bfe9f2351e3fd78aac59cf975423ea2be
     name: arena
     type: application
     urls:
@@ -36,4 +36,4 @@ entries:
     urls:
     - https://liuyujie-tx.github.io/helm-charts/skywalking.tgz
     version: 4.0.0
-generated: "2021-07-12T17:37:25.6201+08:00"
+generated: "2021-07-13T15:10:07.096429+08:00"
