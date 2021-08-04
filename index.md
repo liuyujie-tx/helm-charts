@@ -7,3 +7,9 @@ helm-chart repostory of liuyujie-tx
 helm repo add liuyujie-tx https://liuyujie-tx.github.io/helm-charts/
 helm install skywalking liuyujie-tx/skywalking
 ```
+
+#### Arena
+```
+helm repo add liuyujie-tx https://liuyujie-tx.github.io/helm-charts/
+helm install arena liuyujie-tx/arena
+```
