@@ -3,7 +3,7 @@ entries:
   arena:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-04T19:47:33.352487+08:00"
+    created: "2021-08-04T20:38:12.433557+08:00"
     description: A Helm chart for Kubernetes
     digest: 4c1f99df7be7d915b2134538f27fc00bfe9f2351e3fd78aac59cf975423ea2be
     name: arena
@@ -14,13 +14,13 @@ entries:
   canal-server:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-04T19:47:33.358308+08:00"
+    created: "2021-08-04T20:38:12.43862+08:00"
     dependencies:
     - name: mysql
       repository: https://charts.bitnami.com/bitnami
       version: 8.8.1
     description: A Helm chart for Kubernetes
-    digest: 67320dea66304e13b3c83c5420827239ad363e244bb50fc2fde5631f073efd06
+    digest: 0f046d794aa20ea54cbfed02e34a2b81df95715cc381ba712d0f7d17bf1a7f7c
     name: canal-server
     type: application
     urls:
@@ -28,7 +28,7 @@ entries:
     version: 1.1.5
   skywalking:
   - apiVersion: v2
-    created: "2021-08-04T19:47:33.363432+08:00"
+    created: "2021-08-04T20:38:12.443122+08:00"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -51,4 +51,4 @@ entries:
     urls:
     - https://liuyujie-tx.github.io/helm-charts/skywalking.tgz
     version: 4.0.0
-generated: "2021-08-04T19:47:33.351776+08:00"
+generated: "2021-08-04T20:38:12.432015+08:00"
