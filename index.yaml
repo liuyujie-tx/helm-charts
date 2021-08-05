@@ -11,16 +11,6 @@ entries:
     urls:
     - https://liuyujie-tx.github.io/helm-charts/arena-1.0.0.tgz
     version: 1.0.0
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2021-08-04T20:38:12.433557+08:00"
-    description: A Helm chart for Kubernetes
-    digest: 4c1f99df7be7d915b2134538f27fc00bfe9f2351e3fd78aac59cf975423ea2be
-    name: arena
-    type: application
-    urls:
-    - https://liuyujie-tx.github.io/helm-charts/arena-0.8.5.tgz
-    version: 0.8.5
   canal-adapter:
   - apiVersion: v2
     appVersion: 1.1.5
@@ -34,20 +24,6 @@ entries:
     version: 1.0.0
   canal-server:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2021-08-04T20:38:12.43862+08:00"
-    dependencies:
-    - name: mysql
-      repository: https://charts.bitnami.com/bitnami
-      version: 8.8.1
-    description: A Helm chart for Kubernetes
-    digest: 0f046d794aa20ea54cbfed02e34a2b81df95715cc381ba712d0f7d17bf1a7f7c
-    name: canal-server
-    type: application
-    urls:
-    - https://liuyujie-tx.github.io/helm-charts/canal-server-1.1.5.tgz
-    version: 1.1.5
-  - apiVersion: v2
     appVersion: 1.1.5
     created: "2021-08-05T16:03:05.319654+08:00"
     description: A Helm chart for Kubernetes
@@ -59,6 +35,7 @@ entries:
     version: 1.0.0
   skywalking:
   - apiVersion: v2
+    appVersion: 4.0.0
     created: "2021-08-05T16:03:05.324329+08:00"
     dependencies:
     - condition: elasticsearch.enabled
