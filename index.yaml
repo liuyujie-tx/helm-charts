@@ -3,7 +3,7 @@ entries:
   arena:
   - apiVersion: v2
     appVersion: 0.8.5
-    created: "2021-08-07T15:12:50.990807+08:00"
+    created: "2021-08-07T15:16:59.996415+08:00"
     description: A Helm chart for Kubernetes
     digest: 647070e66ba9fdd318e0fad28fc525a0930d42703cff9c5398e39d6898ef286e
     name: arena
@@ -14,7 +14,7 @@ entries:
   canal-adapter:
   - apiVersion: v2
     appVersion: 1.1.5
-    created: "2021-08-07T15:12:50.991552+08:00"
+    created: "2021-08-07T15:16:59.997153+08:00"
     description: A Helm chart for Kubernetes
     digest: 174d5a5e0299578da38a17110ed12722da2b7595dd79fcb87ddb904b461c2939
     name: canal-adapter
@@ -25,7 +25,7 @@ entries:
   canal-admin:
   - apiVersion: v2
     appVersion: 1.1.5
-    created: "2021-08-07T15:12:50.992245+08:00"
+    created: "2021-08-07T15:16:59.997764+08:00"
     description: A Helm chart for Kubernetes
     digest: d2754f757911d0400bf3155fccf43e1491db67023a0647f770693b6a9c0754d0
     name: canal-admin
@@ -36,9 +36,9 @@ entries:
   canal-server:
   - apiVersion: v2
     appVersion: 1.1.5
-    created: "2021-08-07T15:12:50.992678+08:00"
+    created: "2021-08-07T15:16:59.998145+08:00"
     description: A Helm chart for Kubernetes
-    digest: a41d1a58b063a3bc95d9b74a1e1141a2d6a756f98e7d1079fcb44b1c4fa9d93f
+    digest: fc821c9584b78831f1f2dd4d7aac8b05a54f60204505ecb335e904ed2dc2de5e
     name: canal-server
     type: application
     urls:
@@ -46,7 +46,7 @@ entries:
     version: 1.0.0
   skywalking:
   - apiVersion: v2
-    created: "2021-08-07T15:12:50.996323+08:00"
+    created: "2021-08-07T15:17:00.001979+08:00"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -69,4 +69,4 @@ entries:
     urls:
     - https://liuyujie-tx.github.io/helm-charts/skywalking.tgz
     version: 4.0.0
-generated: "2021-08-07T15:12:50.990029+08:00"
+generated: "2021-08-07T15:16:59.995213+08:00"
