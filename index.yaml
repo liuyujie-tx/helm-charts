@@ -3,7 +3,7 @@ entries:
   arena:
   - apiVersion: v2
     appVersion: 0.8.5
-    created: "2021-08-07T16:36:46.630006+08:00"
+    created: "2022-01-10T17:02:33.530697+08:00"
     description: A Helm chart for Kubernetes
     digest: 647070e66ba9fdd318e0fad28fc525a0930d42703cff9c5398e39d6898ef286e
     name: arena
@@ -14,7 +14,7 @@ entries:
   canal-adapter:
   - apiVersion: v2
     appVersion: 1.1.5
-    created: "2021-08-07T16:36:46.630831+08:00"
+    created: "2022-01-10T17:02:33.531084+08:00"
     description: A Helm chart for Kubernetes
     digest: 174d5a5e0299578da38a17110ed12722da2b7595dd79fcb87ddb904b461c2939
     name: canal-adapter
@@ -25,7 +25,7 @@ entries:
   canal-admin:
   - apiVersion: v2
     appVersion: 1.1.5
-    created: "2021-08-07T16:36:46.631481+08:00"
+    created: "2022-01-10T17:02:33.531469+08:00"
     description: A Helm chart for Kubernetes
     digest: d2754f757911d0400bf3155fccf43e1491db67023a0647f770693b6a9c0754d0
     name: canal-admin
@@ -36,7 +36,7 @@ entries:
   canal-server:
   - apiVersion: v2
     appVersion: 1.1.5
-    created: "2021-08-07T16:36:46.631956+08:00"
+    created: "2022-01-10T17:02:33.531857+08:00"
     description: A Helm chart for Kubernetes
     digest: bd2e82c8e1e16555c9dfcb6b26399d81b12d0e648fbad430e23b15e57b71b922
     name: canal-server
@@ -46,7 +46,31 @@ entries:
     version: 1.0.0
   skywalking:
   - apiVersion: v2
-    created: "2021-08-07T16:36:46.635719+08:00"
+    created: "2022-01-10T17:02:33.53499+08:00"
+    dependencies:
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co/
+      version: ~7.5.1
+    description: Apache SkyWalking APM System
+    digest: 54f05be590f79e57f8f3a475b523f749413bbc70be73bc961734492b0a6ce188
+    home: https://skywalking.apache.org
+    icon: https://raw.githubusercontent.com/apache/skywalking-kubernetes/master/logo/sw-logo-for-chart.jpg
+    maintainers:
+    - email: hanahmily@gmail.com
+      name: hanahmily
+    - email: innerpeace.zhai@gmail.com
+      name: innerpeacez
+    - email: kezhenxu94@163.com
+      name: kezhenxu94
+    name: skywalking
+    sources:
+    - https://github.com/apache/skywalking-kubernetes
+    urls:
+    - https://liuyujie-tx.github.io/helm-charts/skywalking-4.2.0.tgz
+    version: 4.2.0
+  - apiVersion: v2
+    created: "2022-01-10T17:02:33.538804+08:00"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -69,4 +93,4 @@ entries:
     urls:
     - https://liuyujie-tx.github.io/helm-charts/skywalking.tgz
     version: 4.0.0
-generated: "2021-08-07T16:36:46.629207+08:00"
+generated: "2022-01-10T17:02:33.530207+08:00"
