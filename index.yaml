@@ -3,7 +3,7 @@ entries:
   arena:
   - apiVersion: v2
     appVersion: 0.8.5
-    created: "2022-06-06T11:35:51.185117+08:00"
+    created: "2022-06-07T14:36:16.867099+08:00"
     description: A Helm chart for Kubernetes
     digest: 647070e66ba9fdd318e0fad28fc525a0930d42703cff9c5398e39d6898ef286e
     name: arena
@@ -14,7 +14,7 @@ entries:
   canal-adapter:
   - apiVersion: v2
     appVersion: 1.1.5
-    created: "2022-06-06T11:35:51.186334+08:00"
+    created: "2022-06-07T14:36:16.868418+08:00"
     description: A Helm chart for Kubernetes
     digest: 174d5a5e0299578da38a17110ed12722da2b7595dd79fcb87ddb904b461c2939
     name: canal-adapter
@@ -25,7 +25,7 @@ entries:
   canal-admin:
   - apiVersion: v2
     appVersion: 1.1.5
-    created: "2022-06-06T11:35:51.186932+08:00"
+    created: "2022-06-07T14:36:16.869173+08:00"
     description: A Helm chart for Kubernetes
     digest: d2754f757911d0400bf3155fccf43e1491db67023a0647f770693b6a9c0754d0
     name: canal-admin
@@ -36,7 +36,7 @@ entries:
   canal-server:
   - apiVersion: v2
     appVersion: 1.1.5
-    created: "2022-06-06T11:35:51.187477+08:00"
+    created: "2022-06-07T14:36:16.869919+08:00"
     description: A Helm chart for Kubernetes
     digest: bd2e82c8e1e16555c9dfcb6b26399d81b12d0e648fbad430e23b15e57b71b922
     name: canal-server
@@ -45,6 +45,16 @@ entries:
     - https://liuyujie-tx.github.io/helm-charts/canal-server-1.0.0.tgz
     version: 1.0.0
   data-demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-07T14:36:16.870651+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 0f4201e9003230c94d7736bf8300b8ab05cc465b83080c059ff2e555f38f5e50
+    name: data-demo
+    type: application
+    urls:
+    - https://liuyujie-tx.github.io/helm-charts/data-demo-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2022-06-06T11:35:51.18799+08:00"
@@ -57,7 +67,7 @@ entries:
     version: 0.1.0
   skywalking:
   - apiVersion: v2
-    created: "2022-06-06T11:35:51.192112+08:00"
+    created: "2022-06-07T14:36:16.876841+08:00"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -81,7 +91,7 @@ entries:
     - https://liuyujie-tx.github.io/helm-charts/skywalking-4.2.0.tgz
     version: 4.2.0
   - apiVersion: v2
-    created: "2022-06-06T11:35:51.196497+08:00"
+    created: "2022-06-07T14:36:16.884647+08:00"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -104,4 +114,4 @@ entries:
     urls:
     - https://liuyujie-tx.github.io/helm-charts/skywalking.tgz
     version: 4.0.0
-generated: "2022-06-06T11:35:51.184058+08:00"
+generated: "2022-06-07T14:36:16.865604+08:00"
